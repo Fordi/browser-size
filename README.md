@@ -49,46 +49,58 @@ The following section will list out methods in the following form:
 
 _returnContentType_ _methodName_ [_arguments_]
 <blockquote>
-Description of action
-Considerations and limitations
- * Argument : Description
+Description of action<br />
+Considerations and limitations<br />
+ &middot; Argument : Description
 </blockquote>
 
 application/json data
- > Get the past month's data as a JSON object
- > Updated daily after initial demand
+<blockquote>
+Get the past month's data as a JSON object<br />
+Updated daily after initial demand
+</blockquote>
 
 application/json fullData
- > Get the entire archive of data
- > Updated monthly after initial demand
+<blockquote>
+Get the entire archive of data<br />
+Updated monthly after initial demand
+</blockquote>
 
 application/json aggregateData
- > Get the aggregate data (summed impressions with 1 month half life)
- > Updated daily after initial demand
+<blockquote>
+Get the aggregate data (summed impressions with 1 month half life)<br />
+Updated daily after initial demand
+</blockquote>
 
 image/png left.png
- > Get a left-aligned foldmap
- > Updated weekly after initial demand
- > Note that if you are the first to request a foldmap this week, you get 
-to wait for the system to generate them
+<blockquote>
+Get a left-aligned foldmap<br />
+Updated weekly after initial demand<br />
+Note that if you are the first to request a foldmap this week, you get to wait for the system to generate them<br />
+</blockquote>
 
 image/png right.png
- > Get a right-aligned foldmap
- > Updated weekly after initial demand
- > Note that if you are the first to request a foldmap this week, you get 
-to wait for the system to generate them
+<blockquote>
+Get a right-aligned foldmap<br />
+Updated weekly after initial demand<br />
+Note that if you are the first to request a foldmap this week, you get to wait for the system to generate them<br />
+</blockquote>
 
 image/png center.png
- > Get a center-aligned foldmap
- > Updated weekly after initial demand
- > Note that if you are the first to request a foldmap this week, you get 
-to wait for the system to generate them
+<blockquote>
+Get a center-aligned foldmap<br />
+Updated weekly after initial demand<br />
+Note that if you are the first to request a foldmap this week, you get to wait for the system to generate them<br />
+</blockquote>
 
 HTTP301 phpSource 
- > Get the source code for this application
- > Presently links you to this repository
+<blockquote>
+Get the source code for this application<br />
+Presently links you to this repository
+</blockquote>
 
 text/javascript magic.js
- > Magic script for use if you don't want to put an inline JS snippet on 
-your page
- > Can change at any time; you may want to copy it out.
+<blockquote>
+Magic script for use if you don't want to put an inline JS snippet on your page<br />
+Can change at any time; you may want to copy it out.
+</blockquote>
