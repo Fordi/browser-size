@@ -48,9 +48,11 @@ the form of:
 The following section will list out methods in the following form:
 
 _returnContentType_ _methodName_ [_arguments_]
- > Description of action
- > Considerations and limitations
+<blockquote>
+Description of action
+Considerations and limitations
  * Argument : Description
+</blockquote>
 
 application/json data
  > Get the past month's data as a JSON object
