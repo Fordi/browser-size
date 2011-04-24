@@ -1,10 +1,3 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
-<head>
-	<meta charset="UTF-8">
-	<title></title>
-</head>
-<body>
-	Coming soon.
-</body>
-</html>
+<?php
+Header('HTTP 301 Moved Permanently');
+Header('Location: https://github.com/Fordi/browser-size');
