@@ -1,0 +1,40 @@
+html, body {
+	font: 1em Arial;
+	background-color: black;
+}
+pre {
+	border: 2px solid #ceab27;
+	font-size: 0.85em;
+	white-space: normal;
+	box-shadow: 0 0 10px black;
+	padding: 0.5em 0.25em;
+	color: #ceab27;
+	font-weight: bold;
+}
+#page {
+	width: 66%;
+	margin: 0 auto;
+	border: 4px solid #120b01;
+	border-radius: 120px/40px;
+	box-shadow: 0 0 1000px -50px #0b60ff;
+}
+#section {
+	background: #241602;
+	color: #ad9021;
+	font: 18px Consolas;
+	border-radius: 120px/40px;
+	padding: 5%;
+	box-shadow: inset 0 0 120px black;
+}
+.footnote {
+	font-size: 0.85em;
+	position: relative;
+	top: -0.7em;
+}
+a {
+	color: #ceab27;
+}
+strong {
+	font-weight: bold;
+	color: #ceab27;
+}

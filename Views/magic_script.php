@@ -1,0 +1,1 @@
+(function(d){var b=(d.documentElement||d.body);(new Image()).src="http://fordi.org/sz/"+b.clientWidth+"x"+b.clientHeight})(document)

@@ -1,0 +1,6 @@
+SELECT 
+	pixels, 
+	SUM(count*POW(0.5, (UNIX_TIMESTAMP() - UNIX_TIMESTAMP(stamp))/2629800)) as "count"
+FROM browser_widths
+GROUP BY pixels
+ORDER BY pixels DESC;

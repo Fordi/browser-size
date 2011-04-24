@@ -1,0 +1,1 @@
+(function(d){var s=d.createElement('script');s.src='http://fordi.org/sz/Static/bookmarklet.js';d.body.appendChild(s);})(document);
