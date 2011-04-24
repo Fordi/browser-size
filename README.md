@@ -15,7 +15,7 @@ To get user data, I want to get a snippet of code on as many pages as I
 can, so as to capture as many browser sizes as I can.  
 
 The code in question:
- > &lt;script type="text/javascript"&gt;(function(d){var b=(d.documentElement||d.body);(new Image()).src="http://fordi.org/sz/"+b.clientWidth+"x"+b.clientHeight})(document)&lt;/script&gt;
+<pre>&lt;script type="text/javascript"&gt;(function(d){var b=(d.documentElement||d.body);(new Image()).src="http://fordi.org/sz/"+b.clientWidth+"x"+b.clientHeight})(document)&lt;/script&gt;</pre>
 
 This snippet simply captures your browser's viewport dimensions, and 
 makes a request to my server, e.g., http://fordi.org/sz/826x624
