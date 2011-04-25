@@ -43,11 +43,13 @@ The API
 -------
 For the moment, API calls are unauthenticated.  They are requested in 
 the form of:
-<blockquote>http://fordi.org/sz/<em>method</em></blockquote>
+
+> http://fordi.org/sz/<em>method</em>
 
 The following section will list out methods in the following form:
 
 _returnContentType_ _methodName_ [_arguments_]
+
 > Description of action
 > Considerations and limitations
 * Argument : Description
