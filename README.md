@@ -55,7 +55,7 @@ _returnContentType_ _methodName_ [_arguments_]
 
 application/json data
 
-> Get the past month's data as a JSON object
+> Get the past month's data as a JSON object 
 > Updated daily after initial demand
 
 * Test Argument
