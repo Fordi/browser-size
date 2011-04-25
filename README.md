@@ -54,10 +54,10 @@ _returnContentType_ _methodName_ [_arguments_]
 * Argument : Description
 
 application/json data
-<blockquote>
-Get the past month's data as a JSON object<br />
-Updated daily after initial demand
-</blockquote>
+
+> Get the past month's data as a JSON object
+> Updated daily after initial demand
+* Test Argument
 
 application/json fullData
 <blockquote>
