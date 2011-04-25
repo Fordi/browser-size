@@ -48,11 +48,9 @@ the form of:
 The following section will list out methods in the following form:
 
 _returnContentType_ _methodName_ [_arguments_]
-<blockquote>
-Description of action<br />
-Considerations and limitations<br />
- &middot; Argument : Description
-</blockquote>
+> Description of action
+> Considerations and limitations
+* Argument : Description
 
 application/json data
 <blockquote>
