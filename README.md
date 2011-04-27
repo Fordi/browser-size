@@ -84,15 +84,18 @@ image/png right.png
 
 
 image/png center.png
+
 > Get a center-aligned foldmap  
 > Updated weekly after initial demand  
 > Note that if you are the first to request a foldmap this week, you get to wait for the system to generate them
 
-HTTP301 phpSource 
+HTTP301 phpSource
+
 > Get the source code for this application  
 > Presently links you to this repository
 
 text/javascript magic.js
+
 > Magic script for use if you don't want to put an inline JS snippet on your page  
 > Can change at any time; you may want to copy it out.
 
