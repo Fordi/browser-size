@@ -108,16 +108,15 @@ There's only one controller, and that's /index.php, which also acts as dispatche
 Our models and views are managed via a pair of simple utility functions (found in /Libraries/utilities.php): tpl and execQuery.  There's no hand-holding; the controller must do everything for itself.
 
 String tpl(String viewName, Array localData=array())
-<blockquote>
-Executes a PHP script with some preloaded data, and returns the output content as a string<br />
-&middot; String viewName : refers to a PHP script in Views/[viewName].php<br />
-&middot; Array localData : data with which the view will populate itself
-</blockquote>
+
+> Executes a PHP script with some preloaded data, and returns the output content as a string  
+>   
+> * String viewName : refers to a PHP script in Views/[viewName].php  
+> * Array localData : data with which the view will populate itself
 
 PDOStatement execQuery(String modelName, Array localData=array())
-<blockquote>
-Executes an SQL statement with some preloaded data, and returns the PDOStatement handle with which to collect the data<br />
-&middot; String modelName : refers to an SQL script in Models/[modelName].sql<br />
-&middot; Array localData : data with which to populate the SQL script
-</blockquote>
 
+> Executes an SQL statement with some preloaded data, and returns the PDOStatement handle with which to collect the data  
+>  
+> * String modelName : refers to an SQL script in Models/[modelName].sql  
+> * Array localData : data with which to populate the SQL script
